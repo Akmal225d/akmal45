@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .box1 h1 {
+  font-size: 60px;
+  color: #000000;
+  font-weight: 700;
+}
+.wrapper .box1 p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  padding: 32px 0;
+}
+.wrapper .box1 img {
+  margin-top: 50px;
+}
+.wrapper .btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.wrapper1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  padding: 43px;
+}
+
+.section1 {
+  background-color: black;
+}/*# sourceMappingURL=Hero.css.map */

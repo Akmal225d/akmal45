@@ -1,0 +1,25 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+.images img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+  aspect-ratio: 1/1.3;
+}
+.images div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.images div > div:nth-child(1) {
+  background-color: red;
+}/*# sourceMappingURL=ProductWrap.module.css.map */

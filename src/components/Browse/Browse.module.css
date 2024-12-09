@@ -1,0 +1,44 @@
+.wrap {
+  background-color: #f0f0f0;
+  padding: 64px;
+  border-radius: 25px;
+}
+.wrap .title {
+  text-align: center;
+}
+
+.box {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+  grid-template-areas: "card_1 card_2 card_2" "card_3 card_3 card_4";
+}
+.box .card_1 {
+  grid-area: card_1;
+  background-image: url(./image11.png);
+}
+.box .card_2 {
+  grid-area: card_2;
+  background-image: url(./image13.png);
+}
+.box .card_3 {
+  grid-area: card_3;
+  background-image: url(./image12.png);
+}
+.box .card_4 {
+  grid-area: card_4;
+  background-image: url(./image14.png);
+}
+.box div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 290px;
+  border-radius: 20px;
+}
+.box div h2 {
+  padding-left: 10px;
+  text-align: left;
+}/*# sourceMappingURL=Browse.module.css.map */
